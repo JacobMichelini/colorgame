@@ -1,0 +1,94 @@
+body {
+	background-color: #333;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+	font-family: "Helvetica";
+	font-weight: 700;
+}
+
+.topbar {
+	background-color: skyblue;
+	text-align: center;
+	color: white;
+	padding: 40px;
+	text-shadow: 0px 1px 0px #aaa;
+}
+
+.topbar h2 {
+	font-size: 32px;
+	padding: 15px 15px 0px 15px;
+}
+
+.topbar h1 {
+	font-size: 64px;
+	padding: 5px 15px 15px 15px;
+}
+
+.menu-wrapper {
+	background-color: white;
+}
+
+.menubar {
+	max-width: 900px;
+	margin: auto;
+	background-color: white;
+}
+
+.menubar h2 {
+	display: inline-block;
+	color: white;
+	padding: 10px;
+	background-color: skyblue;
+	cursor: pointer;
+}
+
+.menubar .easy, .hard {
+	float: right;
+	background-color: white;
+	color: skyblue;
+}
+
+.selected {
+	background-color: skyblue;
+	color: white;
+}
+
+.feedback {
+	display: inline;
+	color: skyblue;
+	line-height: 1px;
+	transition: all .25s;
+}
+
+.scored {
+	font-size: 64px;
+	color: green;
+	text-shadow: 1px 1px 1px white, -1px -1px 1px white;
+}
+
+.content-wrapper {
+	max-width: 900px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	/*background-color: pink;*/
+	justify-content: center;
+}
+
+.color-box {
+	height: 280px;
+	width: 280px;
+	background-color: skyblue;
+	border-radius: 50px;
+	margin: 10px;
+	transition: all .15s; 
+}
+
+.color-box:hover {
+	padding: 10px;
+	margin: 0px;
+	border-radius: 70px;
+}
